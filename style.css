@@ -1,0 +1,91 @@
+/**** Reset ****/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**** Variables css ****/
+
+:root {
+    --blue: #0085c7;
+    --yellow: #f4c300;
+    --black: #000000;
+    --green: #009f3d;
+    --red: #df0024;
+}
+
+/**** body ****/
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+}
+
+/**** div circle__loader__container ****/
+
+.circle__loader__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.circle__loader {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: -36px;
+    background-color: transparent;
+    border: 6px solid;
+    border-top-color: #eeeeee;
+    animation-name: spin;
+    animation-duration: 1.2s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+/**** animation spin ****/
+
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.circle__loader:first-child {
+    margin-left: 0;
+    color: var(--blue);
+}
+
+.circle__loader:nth-child(2) {
+    color: var(--yellow);
+}
+
+
+.circle__loader:nth-child(3) {
+    color: var(--black);
+}
+
+.circle__loader:nth-child(4) {
+    color: var(--green);
+}
+
+.circle__loader:nth-child(5) {
+    color: var(--red);
+}
+
+.circle__loader:nth-child(2n) {
+    margin-top: 40px;
+}
