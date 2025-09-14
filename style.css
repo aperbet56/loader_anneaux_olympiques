@@ -67,23 +67,28 @@ body {
 .circle__loader:first-child {
     margin-left: 0;
     color: var(--blue);
+    border-top-color: #00aaff;
 }
 
 .circle__loader:nth-child(2) {
     color: var(--yellow);
+    border-top-color: #ffcc00;
 }
 
 
 .circle__loader:nth-child(3) {
     color: var(--black);
+    border-top-color: #575757;
 }
 
 .circle__loader:nth-child(4) {
     color: var(--green);
+    border-top-color: #00d150;
 }
 
 .circle__loader:nth-child(5) {
     color: var(--red);
+    border-top-color: #ff002b;
 }
 
 .circle__loader:nth-child(2n) {
