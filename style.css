@@ -45,7 +45,7 @@ body {
     border: 6px solid;
     border-top-color: #eeeeee;
     animation-name: spin;
-    animation-duration: 1.2s;
+    animation-duration: 0.8s;
     animation-fill-mode: backwards;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -72,23 +72,27 @@ body {
 
 .circle__loader:nth-child(2) {
     color: var(--yellow);
-    border-top-color: #ffcc00;
+    border-top-color: #ffdb49;
+    animation-delay: 0.2s;
 }
 
 
 .circle__loader:nth-child(3) {
     color: var(--black);
-    border-top-color: #575757;
+    border-top-color: #6b6b6b;
+    animation-delay: 0.4s;
 }
 
 .circle__loader:nth-child(4) {
     color: var(--green);
-    border-top-color: #00d150;
+    border-top-color: #00db54;
+    animation-delay: 0.6s;
 }
 
 .circle__loader:nth-child(5) {
     color: var(--red);
     border-top-color: #ff002b;
+    animation-delay: 0.8s;
 }
 
 .circle__loader:nth-child(2n) {
