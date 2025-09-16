@@ -1,5 +1,7 @@
 ## LOADER ANNEAUX OLYMPIQUES
 
+![Design preview for the loader anneaux olympiques project](./img/banner_jo_loader.PNG)
+
 ## Le challenge
 
 Création d'un loader anneaux olympiques en HTML5 et CSS3.
